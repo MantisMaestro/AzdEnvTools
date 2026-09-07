@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>azd-env</ToolCommandName>
+    <PackageId>AzdEnvTools.Cli</PackageId>
+    <Version>0.1.0</Version>
+    <Description>Manage Azure DevOps environments, approvals, and checks using PAT authentication.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.CommandLine" Version="2.0.0" />
+    <InternalsVisibleTo Include="AzdEnvTools.Cli.Tests" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="AzdEnvTools.Cli/AzdEnvTools.Cli.csproj" />
+  <Project Path="AzdEnvTools.Cli.Tests/AzdEnvTools.Cli.Tests.csproj" />
+</Solution>
